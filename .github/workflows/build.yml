@@ -13,7 +13,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Build
-        working-directory: apps/android-ptt
         run: ./gradlew assembleSmartphoneDebug
 
       - uses: actions/upload-artifact@v4
